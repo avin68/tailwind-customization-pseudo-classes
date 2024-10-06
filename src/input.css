@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#myi{
+    padding: 2px;
+    border: 2px solid gray;
+    margin-top: 4px;
+    padding: 8px;
+    border-radius: 6px;
+}
+#myi:hover{
+    background-color: yellow;
+}
+#myi:focus{
+    background-color: blue;
+}
+.myi2{
+    padding: 2px;
+    border: 2px solid gray;
+    margin-top: 4px;
+    padding: 8px;
+    border-radius: 6px;
+}
+.myi2:hover{
+    background-color: yellow;
+}
+.myi2:focus{
+    background-color: blue;
+}
+#matn::selection{
+    background-color: black;
+    color: yellow;
+}
+#myi3{
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+#myi3::placeholder{
+    color: blueviolet;
+}
